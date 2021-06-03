@@ -1,0 +1,78 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.bg-color {
+    background-color: #F50057;
+}
+
+.para h5 {
+    margin: 50px 0px;
+    text-align: center;
+}
+
+.find {
+    text-align: center;
+}
+
+.btn-calculate {
+    background-color: #F50057;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+.btn-calculate:hover {
+    background-color: white;
+    color: #F50057;
+    border: solid 1px #F50057;
+}
+
+.btn-calculate:active {
+    border: none;
+}
+
+.butn {
+    text-align: center;
+    color: white;
+}
+
+.cards {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.card1 {
+    background-color: #d500f9;
+}
+
+.card2 {
+    background-color: #3d5afe;
+}
+
+.card3 {
+    background-color: #ff9100;
+}
+
+.card1,
+.card2,
+.card3 {
+    color: white;
+    width: auto;
+    height: 250px;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body .card-text {
+    font-size: 30px;
+}
